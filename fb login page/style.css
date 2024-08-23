@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #1c1e21;
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    background-color: #f0f2f5;
+    min-width: 500px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+.fb-content{
+    max-width: 536px;
+    max-width: 910px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.content h1{
+    font-size: 60px;
+    color: #0866ff;
+    font-weight: bold;
+    
+}
+.content h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.user-data{
+    background-color: white;
+    height: 349px;
+    width: 396px;
+    border-radius: 10px;
+
+
+}
+.user-input{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+}
+
+.enter-data{
+    height: 63px;
+    width: 364px;
+    padding: 10px 0;
+    
+}
+.enter-data input{
+    height: 51px;
+    width: 363px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 0 15px;
+}
+.login-btn{
+    padding: 10px 0;
+
+}
+.login-btn button{
+    height: 48px;
+    width: 363px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0866ff;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.user-input p{
+    font-size: 14px;
+    margin: 0 auto;
+    color: #0866ff;
+    margin-top: 10px;
+}
+.border{
+    height: 0.89px;
+    width: 364px;
+    border-bottom: 1px solid #dadde1;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.create-btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.create-btn button{
+    height: 46px;
+    width: 192px;
+    border: none;
+    border-radius: 6px;
+    background-color: #42b72a;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}

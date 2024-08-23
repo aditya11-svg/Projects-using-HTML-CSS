@@ -1,0 +1,122 @@
+:root {
+  --text-dark: hsl(240, 54%, 15%);
+  --text-lighter: hsl(242, 18%, 64%);
+  --primary: hsl(222, 98%, 60%);
+  --primary-lighter: hsl(240, 33%, 86%);
+  --primary-gradient: linear-gradient(to right, #3671fd, #dd31ff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  background-color: #f5f9ff;
+}
+.container {
+  display: flex;
+}
+.box1 {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Pink-Blue\ Gradient.jpg);
+  background-size: cover;
+}
+.box2 {
+  height: 100vh;
+  width: 50%;
+}
+.login-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content_box {
+  height: 400px;
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: grid;
+  gap: 20px;
+  padding: 25px;
+}
+.content h1 {
+  font-size: 2.5rem;
+}
+.content span {
+  font-size: 2.5rem;
+  font-weight: 600;
+  background: var(--primary-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content p {
+  font-size: 1.2rem;
+}
+.welcome p {
+  margin-bottom: 50px;
+}
+.welcome h1 {
+  background: var(--primary-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.form-group input {
+  height: 30px;
+  width: 320px;
+  border: 2px solid var(--primary-lighter);
+  border-radius: 5px;
+}
+.rem-forgot {
+  margin-bottom: 30px;
+}
+.rem-forgot label {
+  margin-right: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  height: 35px;
+  width: 320px;
+  background: var(--primary-gradient);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: #f5f9ff;
+}
+
+@media (max-width: 677px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .box1,
+  .box2 {
+    height: 50vh;
+    width: 100%;
+  }
+  body,
+  html {
+    font-size: 75%;
+  }
+}
